@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  color: white;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.hero .btn {
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+/* Product Section */
+.products .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.products .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.products .card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Contact Section */
+.contact form .form-control {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact form button {
+  background-color: #007bff;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.contact form button:hover {
+  background-color: #0056b3;
+}
